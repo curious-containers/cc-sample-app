@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-NAME=docker.io/curiouscontainers/cc-sample-app
+REGISTRY_URL=docker.io/curiouscontainers/cc-sample-app
 
 docker pull docker.io/curiouscontainers/cc-image-ubuntu
-docker pull ${NAME}
-docker build -t ${NAME} .
-docker push ${NAME}
+docker pull ${REGISTRY_URL}
+docker build -t ${REGISTRY_URL} .
+docker push ${REGISTRY_URL}

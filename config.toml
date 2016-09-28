@@ -7,4 +7,3 @@ local_result_files = [
     {'dir' = '/home/ubuntu/result_files', 'name' = 'data.txt'},
     {'dir' = '/home/ubuntu/result_files', 'name' = 'parameters.txt'}
 ]
-parameters_as_json = false

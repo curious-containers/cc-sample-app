@@ -4,6 +4,6 @@ local_input_files = [
     {'dir' = '/home/ubuntu/input_files', 'name' = 'data.txt'}
 ]
 local_result_files = [
-    {'dir' = '/home/ubuntu/result_files', 'name' = 'data.txt'},
+    {'dir' = '/home/ubuntu/result_files', 'name' = 'data.txt', 'optional' = true},
     {'dir' = '/home/ubuntu/result_files', 'name' = 'parameters.txt'}
 ]

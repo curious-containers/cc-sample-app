@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 REGISTRY_URL=docker.io/curiouscontainers/cc-sample-app
-TAG=0.2
+TAG=0.3
 
 docker pull docker.io/curiouscontainers/cc-image-ubuntu:${TAG}
 docker pull ${REGISTRY_URL}

@@ -1,4 +1,4 @@
-FROM docker.io/curiouscontainers/cc-image-ubuntu:0.10
-COPY config.json /opt/config.json
+FROM docker.io/curiouscontainers/cc-image-fedora:0.12
+COPY config.json /root/.config/cc-container-worker/config.json
 
-COPY algorithm.sh /home/ubuntu/algorithm.sh
+COPY algorithm.sh /root/algorithm.sh

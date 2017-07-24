@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
 if [[ $(($RANDOM % 2)) == 0 ]]; then
-    cp /home/ubuntu/input_files/data.txt /home/ubuntu/result_files/data.txt
+    cp /root/input_files/data.txt /root/result_files/data.txt
 fi
-echo ${@} > /home/ubuntu/result_files/parameters.txt
+echo ${@} > /root/result_files/parameters.txt

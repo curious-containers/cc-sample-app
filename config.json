@@ -1,10 +1,10 @@
 {
-    "application_command": "bash /home/ubuntu/algorithm.sh",
+    "application_command": "bash /root/algorithm.sh",
     "local_input_files": [
-        {"dir": "/home/ubuntu/input_files", "name": "data.txt"}
+        {"dir": "/root/input_files", "name": "data.txt"}
     ],
     "local_result_files": {
-        "file_a": {"dir": "/home/ubuntu/result_files", "name": "data.txt", "optional": true},
-        "file_b": {"dir": "/home/ubuntu/result_files", "name": "parameters.txt"}
+        "file_a": {"dir": "/root/result_files", "name": "data.txt", "optional": true},
+        "file_b": {"dir": "/root/result_files", "name": "parameters.txt"}
     }
 }
